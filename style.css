@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #8c878121;
+
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.page1 {
+    width: 100vw;
+    height: auto;
+    background-color: #8c878121;
+}
+
+.page1 h3 {
+    font-family: 'Clash Display', sans-serif;
+    text-align: center;
+    color: #000000;
+    font-weight: 100;
+    padding-top: 3vw;
+    opacity: 0.8;
+
+}
+.page1 h5 {
+    text-align: center;
+    color: #000000;
+    font-weight: 200;
+    padding-top: 1vw;
+    opacity: 0.9;
+    font-size: 1vw;
+}
+.imagessetone {
+    display: flex;
+}
+
+#one {
+    width: 40vw;
+    margin-top: 6vw;
+    margin-left: 1vw;
+    object-fit: cover;
+
+}
+#two {
+    width: 30vw;
+    margin-left: 1vw;
+    margin-top: 20vw;
+    object-fit: cover;
+
+}
+#three {
+    width: 26vw;
+    margin-left: 1vw;
+    margin-top: 40vw;
+    object-fit: cover;
+}
+.imagessettwo {
+    display: flex;
+}
+#five {
+    width: 26vw;
+    margin-left: 1vw;
+    margin-top: 40vw;
+    object-fit: cover;
+
+}
+#six {
+    width: 30vw;
+    margin-left: 1vw;
+    margin-top: 20vw;
+    object-fit: cover;
+
+}
+#seven {
+    width: 40vw;
+    margin-top: 6vw;
+    margin-left: 1vw;
+    object-fit: cover;
+
+}
+#eight {
+    width: 98vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+#nine {
+    width: 98vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+.blockone {
+    display: flex;
+    gap: 3vw;
+    margin-top: 2vw;
+}
+.blockone img {
+    width: 30vw;
+    margin-left: 1vw;
+    opacity: 0.8;
+}
+.page2 {
+    width: 100%;
+    height: 100%;
+    background-color: #8c878121;
+    position: relative;
+}
+.page2 img {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page3 {
+    width: 100%;
+    height: 100%;
+    background-color: #8c878121;
+    position: relative;
+}
+.page3 img {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page4 {
+    width: 100%;
+    height: 100%;
+    background-color: #8c878121;
+    position: relative;
+}
+.page4 img {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main h1 {
+    font-size: 9vw;
+    text-align: center;
+    padding-top: 9vw;
+    opacity: 0.8;
+    color: gray;
+}
+.main h4 {
+    padding-top: 2vw;
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+    font-weight: 100;
+    padding-bottom: 5vw;
+}
